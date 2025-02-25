@@ -47,7 +47,7 @@ export function App() {
     <ChakraProvider>
       <Box maxWidth="800px" margin="auto" mt={8}>
         <VStack spacing={8}>
-          <Heading>TODO App</Heading>
+          <Heading>TODO Apps</Heading>
           <AddTodo onAdd={handleAddTodo} />
           <TodoList 
             todos={todos} 
